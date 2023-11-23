@@ -1,0 +1,124 @@
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight:900;
+    color: #fff;
+}
+h2{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+h3{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+p{
+    color: #8f8f8f;
+}
+#title-image{
+    position: absolute;
+    transform: rotate(25deg);
+    padding:0% 5%;
+    margin: 3% 5% 5% 0%;
+    width: 30%;
+}
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+#icons{
+    color: #ef8172;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+#icons:hover{
+    color:#ff4c68;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.icon-grid{
+    text-align: center;
+    line-height: 145%;
+}
+.brand-image{
+    width: 20%;
+    padding: 20px 20px 40px;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 3% 25% 5%;
+    color:#fff;
+}
+.download-btn{
+    padding: 10px;
+    margin: 20px 5px;
+}
+#footer{
+    text-align: center;
+    background-color: #fff;
+    padding: 5% ;
+}
+.contact-by{
+    margin: 2px;
+}
+.carousel-item{
+    padding: 5% 17%;
+}
+.card{
+    padding: 0px;
+    text-align: center;
+}
+#features{
+    background-color: #fff;
+    position: relative;
+}
+.dwn{
+    margin-bottom: 5px;
+}
+@media(max-width:1280px){
+    h1{
+    font-size: 2.7rem;
+    }
+}
+/* @media(max-width:1005px){
+    h1{
+    font-size: 2.3rem;
+    }
+} */
+@media(max-width:1000px){
+    #title{
+        text-align: center;
+    }
+    #title-image{
+        position:relative;
+        transform: rotate(0deg);
+        padding:0% 5%;
+        margin: 5% 15%;
+        width: 60%;
+    }
+}
+@media (max-width:600px){
+    h1{
+        text-align: center;
+        font-size: 2.7rem;
+    }
+    .download-btn{
+        margin-bottom: 0;
+    }
+}
